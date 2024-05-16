@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+// Seção das variaveis 
+int fahrenheit;
+int celsius;
+int conversao;
+
+// Declaração das variaveis
+printf("Escreva a quantidade de graus em fahrenheit: \n");
+scanf("%i", &fahrenheit);
+
+// Tranformando fahrenheit em celsius
+celsius = (fahrenheit - 32) /1.8;
+ 
+printf ("A quantidade de graus em fahrenheit e: \n %i", fahrenheit);
+printf ("A conversão de fahrenheit para celsius e: \n %i", celsius);
+
+return 0;
+}
