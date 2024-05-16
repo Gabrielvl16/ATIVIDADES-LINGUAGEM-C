@@ -17,4 +17,6 @@ scanf("%i", &numero2);
 //Calculo da diferença 
 diferenca = numero1 - numero2;
 printf("A diferença do primeiro numero e do segundo numero e: \n %i", diferenca);
+
+return 0;
 }
