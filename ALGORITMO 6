@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+// Seção das variaveis
+float kilos;
+float gramas;
+
+// Declaração das variaveis 
+printf("Escreva seu peso em Kg: \n");
+scanf("%f", &kilos);
+
+// Convertendo de kilos para gramas
+gramas = kilos * 1000;
+printf("Seu peso em gramas(G) e: \n %2.f",gramas);
+
+return 0;
+}
