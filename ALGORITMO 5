@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+// Seção das variaveis 
+float numero1;
+float numero2;
+float divisao;
+
+// Declaração das variaveis 
+printf("Digite dois numeros para serem divididos: \n");
+printf("Digite o dividendo numero: \n");
+scanf("%f", &numero1);
+
+printf("Digite o divisor numero: \n");
+scanf("%f", &numero2);
+
+//Dividindo os valores 
+divisao = numero1 / numero2;
+printf("Resultado: n\ %.2f", divisao);
+
+return 0;
+}
