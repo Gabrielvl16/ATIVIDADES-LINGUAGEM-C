@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+// Seção das variaveis 
+int numero1;
+int numero2;
+int diferenca;
+
+// Declaração das variaveis
+printf("Digite o primeiro numero: \n");
+scanf("%i", &numero1);
+
+printf("Digite o segundo numero: \n");
+scanf("%i", &numero2);
+
+//Calculo da diferença 
+diferenca = numero1 - numero2;
+printf("A diferença do primeiro numero e do segundo numero e: \n %i", diferenca);
+}
