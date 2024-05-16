@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+// Seleção de variaveis
+	
+	float numero1;
+	float numero2;
+	float numero3; 
+	float numero4;
+	
+
+// Exibindo as variaveis
+
+   printf("Escreva quatro notas: \n");
+   
+   printf("Primeira nota: \n");
+   scanf("%f", &numero1);
+   
+   printf("Segunda nota: \n");
+   scanf("%f", &numero2);
+   
+   printf("Terceira nota: \n");
+   scanf("%f", &numero3);
+   
+   printf("Quarta nota: \n");
+   scanf("%f", &numero4);
+   
+// Exibindo media
+
+float total = numero1 + numero2 + numero3 + numero4;
+float media = total/4;
+
+printf("A media das notas e: %.2f \n",  media);
+
+return 0; 
+}
