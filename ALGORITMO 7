@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+// Seção das variaveis 
+float kilos;
+float divida;
+
+// Declaração das variaveis 
+printf("Diigite o peso do prato em Kg: \n");
+scanf("%f", &kilos);
+
+// Soma do valor a ser pago
+divida = 45 * kilos;
+printf("A divida do cliente com o estabelecimento e: \n %2.f",divida,"c% R$");
+
+}
