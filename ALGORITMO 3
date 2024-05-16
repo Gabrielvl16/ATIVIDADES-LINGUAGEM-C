@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// Seleção das variaveis 
+int main(){
+float base;
+float altura;
+float metrosQuadrados;
+
+// Exibindo as variaveis 
+printf("Escreva a base do seu retangulo: \n");
+scanf("%f", &base);
+
+printf("Escreva a altura do seu retangulo: \n");
+scanf("%f", &altura);
+
+// Convertendo em metros quadrados 
+metrosQuadrados = base * altura;
+
+printf("Seu retangulo convertido em metros quadrados e:  %.2f \n" , metrosQuadrados);
+
+return 0;
+}
