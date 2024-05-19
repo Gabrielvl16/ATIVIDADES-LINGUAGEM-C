@@ -1,27 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
+#define PI 3.14159
 
 int main() {
-// Seção das variaveis 
-float diametro;
-float raio;
-float cumprimento;
-float area;
+	// Definindo variaveis
+    float raio, diametro, comprimento, area;
 
-// Declarando as variaveis 
-printf("Escreva o valor do raio de uma circunferência: \n");
-scanf("%f", &raio);
+    // Solicita ao usuário que insira o valor do raio
+    printf("Digite o valor do raio da circunferencia: ");
+    scanf("%f", &raio);
 
-// Imprimindo valores 
-diametro = raio * 2;
-printf("O diametro da sua circunferência e: %2.f \n", diametro);
- 
-cumprimento = 2 * 3,14 * raio;
-printf("O cumprimento de sua cincunferencia e: %2.f \n", cumprimento);
+    // Calcula o diâmetro, comprimento e área da circunferência
+    diametro = 2 * raio;
+    comprimento = 2 * PI * raio;
+    area = PI * raio * raio;
 
-raio = raio * raio;
-area = raio * 3,14;
-printf("A area de sua circunferência e: %2.f, \n",area);
+    // Exibe os resultados
+    printf("Diametro da circunferencia: %.2f\n", diametro);
+    printf("Comprimento da circunferencia: %.2f\n", comprimento);
+    printf("Area da circunferencia: %.2f\n", area);
 
-return 0;
+    return 0;
 }
