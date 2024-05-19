@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, temp;
+
+    // Solicita ao usuário que insira os valores das variáveis a e b
+    printf("Digite o valor de a: ");
+    scanf("%d", &a);
+    printf("Digite o valor de b: ");
+    scanf("%d", &b);
+
+    // Exibe os valores originais
+    printf("Valores originais:\n");
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+
+    // Troca os valores das variáveis usando uma variável temporária
+    temp = a;
+    a = b;
+    b = temp;
+
+    // Exibe os novos valores após a troca
+    printf("\nValores apos a troca:\n");
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+
+    return 0;
+}
